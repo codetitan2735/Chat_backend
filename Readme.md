@@ -26,24 +26,24 @@ Below, I will provide a detailed breakdown of each element of the project, inclu
 ## Installation
 
 1. Clone the repository:
-```json
+```
     git clone https://github.com/codetitan2735/Chat_backend.git
     cd chat_app
 ```
 2. Install the requirements:
-```json
+```
     pip install -r requirements.txt\
 ```
 3. Run migrations:
-```json
+```
     python manage.py migrate
 ```
 4. Create a superuser to access the admin panel:
-```json
+```
     python manage.py createsuperuser
 ```
 5. Run the server:
-```json
+```
     python manage.py runserver
 ```
 ## API Endpoints
@@ -58,7 +58,7 @@ Below, I will provide a detailed breakdown of each element of the project, inclu
 #### Step 10: Create a Database Dump
 
 You can create a dump of your SQLite database using the following command:
-```json
+```
 python manage.py dumpdata > dump.json
 ```
 This will create a JSON file containing the initial data.
