@@ -27,7 +27,7 @@ Below, I will provide a detailed breakdown of each element of the project, inclu
 
 1. Clone the repository:
 ```json
-    git clone <repository_url>
+    git clone https://github.com/codetitan2735/Chat_backend.git
     cd chat_app
 ```
 2. Install the requirements:
